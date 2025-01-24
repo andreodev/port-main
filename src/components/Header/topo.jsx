@@ -1,9 +1,7 @@
-import React from "react";
 import { useTranslation } from "react-i18next";
-import icon from "../img/icon.png";
+import icon from "../img/icon.jpg";
 import discord from "../img/social/discord.png";
 import github from "../img/social/github.png";
-import gmail from "../img/social/gmail.png";
 import linkedin from "../img/social/linkedin.png";
 
 export default function Header() {

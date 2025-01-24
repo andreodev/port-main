@@ -6,7 +6,7 @@
     },
     "About": {
        "title":  "Sobre mim",
-       "sobre": "Sou um desenvolvedor apaixonado pelo que eu faço. Costumo dizer que “quem faz o que gosta vive de férias”. Por isso estou sempre querendo aprender algo novo que me ajude a ser um desenvolvedor cada vez melhor. Estou com 1 ano de experiência e já atuei tanto no back-end como no front-end, utilizando JS, JQuery, HTML/CSS3, SQL Server, MySql e atualmente estou estudando React e Node."
+       "sobre": "Sou um desenvolvedor apaixonado pelo que eu faço. Costumo dizer que “quem faz o que gosta vive de férias”. Por isso estou sempre querendo aprender algo novo que me ajude a ser um desenvolvedor cada vez melhor. Estou com 1 ano de experiência e já atuei tanto no back-end como no front-end, utilizando React, React-Native, MySql, Node.Js."
     },
     "Socials": {
         "Discord": "https://discord.gg/7Xw79guB",

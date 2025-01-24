@@ -1,4 +1,3 @@
-import React from "react";
 import HeaderFinal from "../components/Header/index.jsx";
 import "./home.css";
 import Contact from "../components/contacts/contact.jsx";
