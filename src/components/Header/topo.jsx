@@ -20,7 +20,7 @@ export default function Header() {
           <img
             src={icon}
             alt="icon-andreo"
-            className="w-64 h-64 md:w-64 md:h-64 object-cover clip-icon hidden md:block" 
+            className="w-64 h-64 md:w-68 md:h-64 object-cover clip-icon hidden md:block" 
           />
         </div>
         <div className="text-white flex-shrink-0 w-full md:w-[500px] text-center md:text-left">

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
-import { faWhatsapp, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useTranslation } from 'react-i18next';
 
@@ -10,7 +10,7 @@ const initialState = {
   message: '',
 };
 
-const Contact = (props) => {
+const Contact = () => {
   const [formData, setFormData] = useState(initialState);
   const [showModal, setShowModal] = useState(false); 
 
