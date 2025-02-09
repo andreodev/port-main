@@ -107,4 +107,4 @@ Agradeço aos seguintes projetos e tecnologias que ajudaram a construir este por
 Desenvolvido com ❤️ por [Andreo Henrique](https://seu-portfolio-link.com)
 
 
->>>>>>> 1caeb594b079ecd0babb03ef2ba586c2ad399ec2
+>>>>>>> 
