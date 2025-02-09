@@ -1,8 +1,22 @@
-# React + Vite
+# Portfólio - React + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é o meu portfólio pessoal desenvolvido utilizando React e Tailwind CSS. O objetivo deste projeto é apresentar minhas habilidades em desenvolvimento front-end com tecnologias modernas, como React e Tailwind, oferecendo uma interface rápida, responsiva e de fácil navegação.
 
-Currently, two official plugins are available:
+## Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca JavaScript para construir interfaces de usuário.
+- **Tailwind CSS**: Framework CSS utilitário que permite uma estilização rápida e personalizada.
+- **Vite**: Ferramenta de build e desenvolvimento super rápida para o React.
+- **React Router**: Para navegação entre as diferentes seções do portfólio.
+
+## Funcionalidades
+
+- **Design Responsivo**: Layout otimizado para diversos dispositivos, garantindo uma boa experiência tanto em desktops quanto em dispositivos móveis.
+- **Habilidade Interativa**: Seções interativas para explorar meus projetos e habilidades de forma intuitiva.
+- **Navegação Simples**: A navegação é feita através de uma barra lateral ou de links rápidos para facilitar o acesso às diferentes partes do portfólio.
+
+## Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-portfolio.git
