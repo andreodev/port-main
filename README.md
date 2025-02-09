@@ -90,7 +90,7 @@ Se você deseja contribuir com melhorias ou sugerir alterações, basta **fazer 
 
 ## 📝 Licença
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Este projeto está licenciado sob a [MIT License].
 
 ---
 
@@ -104,7 +104,7 @@ Agradeço aos seguintes projetos e tecnologias que ajudaram a construir este por
 
 ---
 
-Desenvolvido com ❤️ por [Andreo Henrique](andreodev.com.br)
+Desenvolvido com ❤️ por Andreo Henrique
 
 
 >>>>>>> 
