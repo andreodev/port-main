@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Portfólio - React + Tailwind CSS
 
 Este é o meu portfólio pessoal desenvolvido utilizando React e Tailwind CSS. O objetivo deste projeto é apresentar minhas habilidades em desenvolvimento front-end com tecnologias modernas, como React e Tailwind, oferecendo uma interface rápida, responsiva e de fácil navegação.
