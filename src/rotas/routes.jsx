@@ -1,5 +1,6 @@
 import React, { Suspense, lazy } from 'react';
 import { Route, Routes, useLocation, HashRouter } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import { AnimatePresence, motion } from 'framer-motion';
 
 const YourMainComponent = lazy(() => import('../pages/home.jsx'));
@@ -20,8 +21,12 @@ const AnimatedRoutes = () => {
     </motion.div>
   );
 
+  PageWrapper.propTypes = {
+    children: PropTypes.node.isRequired,
+  };
+
   return (
-    <AnimatePresence mode="wait"> {/* Espera a animação de saída terminar antes de carregar a próxima página */}
+    <AnimatePresence mode="wait"> 
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={
           <PageWrapper>
@@ -49,9 +54,8 @@ const AnimatedRoutes = () => {
   );
 };
 
-// Componente principal da aplicação
 const App = () => (
-  <HashRouter> {/* Substituí o BrowserRouter pelo HashRouter */}
+  <HashRouter> 
     <AnimatedRoutes />
   </HashRouter>
 );

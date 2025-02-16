@@ -23,11 +23,11 @@ export default function Header() {
             className="w-64 h-64 md:w-68 md:h-64 object-cover clip-icon hidden md:block" 
           />
         </div>
-        <div className="text-white flex-shrink-0 w-full md:w-[500px] text-center md:text-left">
+        <div className="text-white flex-shrink-1 w-full md:w-[500px] text-center md:text-left">
           <h1 className="font-bold text-2xl md:text-4xl">{t("Info.name")}</h1>
           <p className="font-bold text-lg md:text-xl">{t("Info.dev")}</p>
           <p className="">{t("Info.ativo")}</p>
-          <hr className="mt-2 mb-4 border-white w-full" />
+          <hr className="mt-2 mb-4 border-white w-full md:w-2/3 lg:w-full " />
           <div className="flex flex-wrap justify-center md:justify-start space-x-4 overflow-x-auto mb-4">
             {sociais.map((tech, index) => (
               <a
@@ -35,7 +35,7 @@ export default function Header() {
                 href={tech.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="transition-transform duration-300 hover:scale-110"
+                className="transition-transform duration-200 hover:scale-75"
               >
                 <img
                   src={tech.src}

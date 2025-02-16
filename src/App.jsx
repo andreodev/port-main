@@ -1,9 +1,11 @@
-import React from "react";
-import Route from './rotas/routes'
+import { ThemeProvider } from "./context/ThemeProvider";
+import Route from "./rotas/routes";
+import './context/style.css'
 
 export default function App() {
-
-    return(
-        <Route />
-    )
+  return (
+    <ThemeProvider>
+      <Route />
+    </ThemeProvider>
+  );
 }

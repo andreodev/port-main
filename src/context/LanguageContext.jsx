@@ -1,4 +1,5 @@
-import React, { createContext, useState } from 'react';
+import  { createContext, useState } from 'react';
+import PropTypes from 'prop-types';
 import pt from '../components/pt.json';
 import en from '../components/en.json';
 
@@ -11,7 +12,10 @@ export const LanguageProvider = ({ children }) => {
   const toggleLanguage = () => {
     setLanguage((prevLanguage) => (prevLanguage === 'pt' ? 'en' : 'pt'));
   };
-
+  
+  LanguageProvider.propTypes = {
+    children: PropTypes.node.isRequired,
+  };
   const texts = language === 'pt' ? pt : en;
 
   return (
