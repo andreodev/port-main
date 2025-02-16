@@ -1,33 +1,32 @@
-import React, { useState, useEffect } from 'react';
-import { getCurrentlyPlaying } from '../hooks/useSpotify.js';
+import { useState, useEffect } from 'react';
+import { getLastPlayedTrack, getCurrentlyPlaying } from '../hooks/useSpotify.js';
 import { useTranslation } from 'react-i18next';
-
 
 const CurrentlyPlaying = () => {
   const [track, setTrack] = useState(null);
   const [error, setError] = useState(null);
-  const [isPlaying, setIsPlaying] = useState(true); 
 
-  const {t} = useTranslation();
+  const { t } = useTranslation();
 
   useEffect(() => {
-    const fetchCurrentlyPlaying = async () => {
+    const fetchTrack = async () => {
       try {
-        const trackData = await getCurrentlyPlaying();
+        let trackData = await getCurrentlyPlaying(); 
+
+        if (!trackData || trackData.message) {
+          trackData = await getLastPlayedTrack();
+        }
+
         setTrack(trackData);
       } catch (err) {
         setError(err.message);
       }
     };
 
-    fetchCurrentlyPlaying();
-    const interval = setInterval(fetchCurrentlyPlaying, 5000);
-    return () => clearInterval(interval); 
+    fetchTrack();
+    const interval = setInterval(fetchTrack, 5000);
+    return () => clearInterval(interval);
   }, []);
-
-  const handlePlayPause = () => {
-    setIsPlaying(!isPlaying);
-  };
 
   if (error) {
     return (
@@ -45,9 +44,6 @@ const CurrentlyPlaying = () => {
     );
   }
 
-  const progressInSeconds = Math.floor(track.progress / 1000);
-  const durationInSeconds = Math.floor(track.duration / 1000);
-  const progressPercentage = (progressInSeconds / durationInSeconds) * 100;
 
   return (
     <div className="bg-gray-800 p-4 rounded-lg shadow-lg">
@@ -57,6 +53,7 @@ const CurrentlyPlaying = () => {
           href="https://open.spotify.com/user/lyixkn1qhupjuexfkygpbzmnd"
           className="text-green-500 underline"
           target='_blank'
+          rel="noopener noreferrer"
         >
           Spotify
         </a>
@@ -77,12 +74,6 @@ const CurrentlyPlaying = () => {
           </div>
         </div>
       )}
-      <div className="relative h-2 py-1 mt-4 rounded-full bg-gray-600">
-        <div
-          className="absolute top-0 left-0 h-full rounded-full bg-green-500"
-          style={{ width: `${progressPercentage}%` }}
-        ></div>
-      </div>
     </div>
   );
 };

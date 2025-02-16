@@ -33,7 +33,7 @@ const refreshAccessToken = async () => {
 };
 export const getLastPlayedTrack = async () => {
   try {
-    const response = await axios.get('https://api.spotify.com/v1/me/player/recently-played', {
+    const response = await axios.get('https://api.spotify.com/v1/me/player/recently-played?limit=1', {
       headers: {
         Authorization: `Bearer ${accessToken}`,
       },
@@ -65,9 +65,10 @@ export const getLastPlayedTrack = async () => {
     }
   }
 }
+
 export const getCurrentlyPlaying = async () => {
   try {
-    const response = await axios.get('https://api.spotify.com/v1/me/player/currently-playing', {
+    const response = await axios.get('https://api.spotify.com/v1/me/player/currently-playing?limit=1', {
       headers: {
         Authorization: `Bearer ${accessToken}`,
       },

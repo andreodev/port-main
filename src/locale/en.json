@@ -1,12 +1,12 @@
 {
   "Info": {
     "name": "Andreo Henrique",
-    "dev": "Full-Stack JR Developer",
+    "dev": "Developer jr",
     "ativo": "I am currently available to work, so feel free to contact me. Thank you 👋"
   },
   "About": {
     "title": "About Me",
-    "sobre": "I'm a developer who is passionate about what I do. I often say that those who do what they like live on vacation. That's why I'm always wanting to learn something new that will help me to be a better and better developer. I have 1 year of experience and I have worked both in the back-end and in the front-end, using React, React-Native, MySql, Node.Js."
+    "sobre": "Developer with 1 year of proven experience in the software industry, I am studying my degree in Systems Analysis and Development at Universidade Paulista - Campus Manaus. Working constantly on a personal/professional level, establishing partnerships and making positive impacts. Junior Developer | React-Native - Node.js - SQL | Fullstack"
   },
   "Socials": {
     "Discord": "https://discord.gg/7Xw79guB",
@@ -74,7 +74,7 @@
       "image": "seven"
     }
   },
-  "Spotify": "What am I hearing on my",
+  "Spotify": "Last song played on my",
   "Contact": {
     "title": "Contact",
     "placeholderName": "Enter your name:",

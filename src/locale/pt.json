@@ -1,12 +1,12 @@
 {
   "Info": {
     "name": "Andreo Henrique",
-    "dev": "Desenvolvedor Full-Stack JR",
+    "dev": "Desenvolvedor jr",
     "ativo": "Estou atualmente disponível para trabalhar, por isso não hesite em contactar-me. 👋"
   },
   "About": {
     "title": "Sobre mim",
-    "sobre": "Sou um desenvolvedor apaixonado pelo que eu faço. Costumo dizer que “quem faz o que gosta vive de férias”. Por isso estou sempre querendo aprender algo novo que me ajude a ser um desenvolvedor cada vez melhor. Estou com 1 ano de experiência e já atuei tanto no back-end como no front-end, utilizando React, React-Native, MySql, Node.Js."
+    "sobre": "Desenvolvedor com 1 ano de experiência comprovada na indústria de software, Estou cursando minha graduação em Análise e Desenvolvimento de Sistemas pela Universidade Paulista - Campus Manaus. Trabalhando de forconstantemente em âmbito pessoal/profissional estabelecendo parcerias e causando impactos positivos. Junior Developer | React-Native - Node.js - SQL | FullStack" 
   },
   "Socials": {
     "Discord": "https://discord.gg/7Xw79guB",
@@ -74,7 +74,7 @@
       "image": "seven"
     }
   },
-  "Spotify": "O que estou ouvindo no meu",
+  "Spotify": "Última musica tocada em meu ",
   "Contact": {
     "title": "Contato",
     "placeholderName": "Digite seu nome:",

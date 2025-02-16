@@ -11,7 +11,7 @@ export default function Github() {
         <img src={gitBg} alt="GitHub Background" className="w-full h-52 object-cover rounded-lg" />
         <div className="absolute inset-0 flex flex-col justify-center items-center bg-opacity-50 rounded-lg">
           <span className="text-highlight text-3xl font-bold mb-5 font-sans glow">{t('github.title')}</span>
-          <span className="text-highlight font-bold text-xl glow">{t('github.subtitle')}</span>
+          <span className="text-highlight font-bold text-xl glow text-center">{t('github.subtitle')}</span>
         </div>
       </a>
     </div>
