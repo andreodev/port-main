@@ -6,7 +6,7 @@
   },
   "About": {
     "title": "About Me",
-    "sobre": "Developer with 1 year of proven experience in the software industry, I am studying my degree in Systems Analysis and Development at Universidade Paulista - Campus Manaus. Working constantly on a personal/professional level, establishing partnerships and making positive impacts. Junior Developer | React-Native - Node.js - SQL | Fullstack"
+    "sobre": "Developer with 1 year of proven experience in the software industry, I am studying my degree in Systems Analysis and Development at Universidade Paulista - Campus Manaus. Working independently but looking for your first job or internship. Junior Developer | React-Native - Node.js - SQL | Fullstack"
   },
   "Socials": {
     "Discord": "https://discord.gg/7Xw79guB",
@@ -42,8 +42,8 @@
       "image": "three"
     },
     "Project4": {
-      "title": "To-Do List",
-      "description": "A to-do list project that stores inputted data in local storage. Developed in HTML/CSS/JS VANILLA.",
+      "title": "Authentication System and User Profile",
+      "description": "Developed a full-stack system for user management, using Next.js, React, MongoDB and Prisma. The application allows registration, authentication and viewing of the user's profile in a secure and efficient way. The solution implements JWT-based authentication, interaction with a NoSQL database (MongoDB) and a responsive interface with React. Techs: Next.js, React, Prisma, MongoDB.",
       "repoLink": "https://github.com/andreowdev/to-doListt",
       "siteLink": "https://andreowdev.github.io/to-doListt/",
       "imageLink": "https://andreowdev.github.io/to-doListt/",

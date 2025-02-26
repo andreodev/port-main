@@ -6,7 +6,7 @@
   },
   "About": {
     "title": "Sobre mim",
-    "sobre": "Desenvolvedor com 1 ano de experiência comprovada na indústria de software, Estou cursando minha graduação em Análise e Desenvolvimento de Sistemas pela Universidade Paulista - Campus Manaus. Trabalhando de forconstantemente em âmbito pessoal/profissional estabelecendo parcerias e causando impactos positivos. Junior Developer | React-Native - Node.js - SQL | FullStack" 
+    "sobre": "Desenvolvedor com 1 ano de experiência comprovada na indústria de software, Estou cursando minha graduação em Análise e Desenvolvimento de Sistemas pela Universidade Paulista - Campus Manaus. Trabalhando de forma independente mas em busca do primeiro emprego ou estágio. Junior Developer | React-Native - Node.js - SQL | FullStack" 
   },
   "Socials": {
     "Discord": "https://discord.gg/7Xw79guB",
@@ -42,11 +42,11 @@
       "image": "three"
     },
     "Project4": {
-      "title": "To-Do List",
-      "description": "Projeto de uma lista de tarefas, armazena os dados digitados no local storage. Desenvolvido em HTML/CSS/JS VANILLA.",
-      "repoLink": "https://github.com/andreowdev/to-doListt",
-      "siteLink": "https://andreowdev.github.io/to-doListt/",
-      "imageLink": "https://andreowdev.github.io/to-doListt/",
+      "title": "Sistema de Autenticação e Perfil de Usuário",
+      "description": "Desenvolvi um sistema full-stack para gerenciamento de usuários, utilizando Next.js, React, MongoDB e Prisma. O aplicativo permite o registro, autenticação e visualização do perfil do usuário de forma segura e eficiente. A solução implementa autenticação baseada em JWT, interação com banco de dados NoSQL (MongoDB) e uma interface responsiva com React. Techs: Next.js, React, Prisma, MongoDB .",
+      "repoLink": "https://authnext-gamma.vercel.app",
+      "siteLink": "https://github.com/andreowdev/authnext",
+      "imageLink": "https://authnext-gamma.vercel.app",
       "image": "four"
     },
     "Project5": {
