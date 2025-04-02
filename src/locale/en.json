@@ -1,12 +1,12 @@
 {
   "Info": {
     "name": "Andreo Henrique",
-    "dev": "Developer jr",
-    "ativo": "I am currently available to work, so feel free to contact me. Thank you 👋"
+    "dev": "Junior Developer",
+    "ativo": "I am currently available for work, so don't hesitate to contact me. 👋"
   },
   "About": {
     "title": "About Me",
-    "sobre": "Developer with 1 year of proven experience in the software industry, I am studying my degree in Systems Analysis and Development at Universidade Paulista - Campus Manaus. Working independently but looking for your first job or internship. Junior Developer | React-Native - Node.js - SQL | Fullstack"
+    "sobre": "Developer with 1 year of proven experience in the software industry. I am pursuing my degree in Systems Analysis and Development at Universidade Paulista - Manaus Campus. Working independently but looking for my first job or internship. Junior Developer | React-Native - Node.js - SQL | FullStack"
   },
   "Socials": {
     "Discord": "https://discord.gg/7Xw79guB",
@@ -19,7 +19,7 @@
   "Projects": {
     "Project1": {
       "title": "My Portfolio",
-      "description": "This is my personal website, the one you are currently on :). Developed with React, Tailwind, APIs.",
+      "description": "This is my personal website, the one you are currently viewing :). Developed with React, Tailwind, APIs.",
       "repoLink": "https://github.com/andreowdev/port-main",
       "siteLink": "https://andreowdev.github.io/port-main/#/",
       "imageLink": "https://github.com/andreowdev/port-main",
@@ -27,7 +27,7 @@
     },
     "Project2": {
       "title": "L.A Soft Solutions",
-      "description": "This is a project to showcase the company L.A SOFT SOLUTIONS. Developed with React and Tailwind.",
+      "description": "This is a project to present the company L.A SOFT SOLUTIONS. Developed with React and Tailwind.",
       "repoLink": "https://github.com/andreowdev/landing-page-hest",
       "siteLink": "https://andreowdev.github.io/landing-page-hest/",
       "imageLink": "https://andreowdev.github.io/landing-page-hest/",
@@ -35,43 +35,19 @@
     },
     "Project3": {
       "title": "Restaurant Management",
-      "description": "This is a restaurant management and service system project called HEST. Developed with React, Node, Tailwind, MySQL.",
+      "description": "This is a restaurant management and customer service system project, called HEST. Developed with React, Node, Tailwind, MySQL.",
       "repoLink": "https://github.com/andreowdev/landing-page-hest",
       "siteLink": "#",
       "imageLink": "https://github.com/andreowdev/cadastrodeprodutos",
       "image": "three"
     },
     "Project4": {
-      "title": "Authentication System and User Profile",
-      "description": "Developed a full-stack system for user management, using Next.js, React, MongoDB and Prisma. The application allows registration, authentication and viewing of the user's profile in a secure and efficient way. The solution implements JWT-based authentication, interaction with a NoSQL database (MongoDB) and a responsive interface with React. Techs: Next.js, React, Prisma, MongoDB.",
-      "repoLink": "https://github.com/andreowdev/to-doListt",
-      "siteLink": "https://andreowdev.github.io/to-doListt/",
-      "imageLink": "https://andreowdev.github.io/to-doListt/",
+      "title": "Authentication and User Profile System",
+      "description": "I developed a full-stack system for user management using Next.js, React, MongoDB, and Prisma. The application allows users to register, authenticate, and view their profile securely and efficiently. The solution implements JWT-based authentication, NoSQL database interaction (MongoDB), and a responsive interface with React. Techs: Next.js, React, Prisma, MongoDB.",
+      "repoLink": "https://authnext-gamma.vercel.app",
+      "siteLink": "https://github.com/andreowdev/authnext",
+      "imageLink": "https://authnext-gamma.vercel.app",
       "image": "four"
-    },
-    "Project5": {
-      "title": "Hortifruti Website",
-      "description": "Hortifruti website, React, Node, Tailwind, MySQL.",
-      "repoLink": "https://github.com/leonfritas/PIM_UNIP",
-      "siteLink": "#",
-      "imageLink": "https://github.com/leonfritas/PIM_UNIP",
-      "image": "fiver"
-    },
-    "Project6": {
-      "title": "CRM SYSTEM",
-      "description": "CRM System, freelance application, using map and local storage to store information. Developed in React, Typescript, Leaflet.",
-      "repoLink": "https://github.com/andreowdev/sistema-crm",
-      "siteLink": "https://andreowdev.github.io/sistema-crm/#/",
-      "imageLink": "https://andreowdev.github.io/sistema-crm/#/",
-      "image": "six"
-    },
-    "Project7": {
-      "title": "Postal Code Finder",
-      "description": "Look up your address using your postal code. Developed with React and CSS.",
-      "repoLink": "https://github.com/andreowdev/buscador-cep",
-      "siteLink": "https://andreowdev.github.io/buscador-cep/",
-      "imageLink": "https://andreowdev.github.io/buscador-cep/",
-      "image": "seven"
     }
   },
   "Spotify": "Last song played on my ",
@@ -80,7 +56,7 @@
     "placeholderName": "Enter your name:",
     "placeholderEmail": "Enter your email",
     "placeholderMessage": "Enter your message",
-    "submitButton": "SUBMIT"
+    "submitButton": "SEND"
   },
   "stack": {
     "title": "My Technologies",
@@ -88,11 +64,14 @@
   },
   "github": {
     "title": "My Github",
-    "subtitle": "See some of my projects and contributions."
+    "subtitle": "Check out some of my projects and contributions."
   },
   "nav": {
     "about": "About",
     "projects": "Projects",
-    "contact": "Contacts"
+    "contact": "Contact"
+  },
+  "footer": {
+    "text": "Andreo Henrique. All rights reserved."
   }
 }

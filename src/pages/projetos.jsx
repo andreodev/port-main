@@ -5,6 +5,7 @@ import Footer from "../components/footer/footer.jsx";
 import '../i18n.js'
 
 export default function Projetos() {
+  console.log("Bem vindo Dev curioso 😂")
   return (
     <div className=" flex flex-col items-center text-white py-14 px-4">
       <div className="max-w-screen-lg w-full rounded-lg ml-2">

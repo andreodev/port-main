@@ -6,6 +6,7 @@ import en from '../components/en.json';
 // Crie o contexto
 export const LanguageContext = createContext();
 
+
 export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState('pt');
   

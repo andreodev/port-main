@@ -6,7 +6,7 @@
   },
   "About": {
     "title": "Sobre mim",
-    "sobre": "Desenvolvedor com 1 ano de experiência comprovada na indústria de software, Estou cursando minha graduação em Análise e Desenvolvimento de Sistemas pela Universidade Paulista - Campus Manaus. Trabalhando de forma independente mas em busca do primeiro emprego ou estágio. Junior Developer | React-Native - Node.js - SQL | FullStack" 
+    "sobre": "Desenvolvedor com 1 ano de experiência comprovada na indústria de software, Estou cursando minha graduação em Análise e Desenvolvimento de Sistemas pela Universidade Paulista - Campus Manaus. Trabalhando de forma independente mas em busca do primeiro emprego ou estágio. Junior Developer | React-Native - Node.js - SQL | FullStack"
   },
   "Socials": {
     "Discord": "https://discord.gg/7Xw79guB",
@@ -48,30 +48,6 @@
       "siteLink": "https://github.com/andreowdev/authnext",
       "imageLink": "https://authnext-gamma.vercel.app",
       "image": "four"
-    },
-    "Project5": {
-      "title": "Site Hortifruti",
-      "description": "Website Hortifruti, React, Node, Tailwind, MySQL.",
-      "repoLink": "https://github.com/leonfritas/PIM_UNIP",
-      "siteLink": "#",
-      "imageLink": "https://github.com/leonfritas/PIM_UNIP",
-      "image": "fiver"
-    },
-    "Project6": {
-      "title": "SISTEMA CRM",
-      "description": "Sistema CRM, aplicação freelancer, usando mapa e localstorage para armazenas as informações. Desenvolvido em React, Typescript, Leaflet.",
-      "repoLink": "https://github.com/andreowdev/sistema-crm",
-      "siteLink": "https://andreowdev.github.io/sistema-crm/#/",
-      "imageLink": "https://andreowdev.github.io/sistema-crm/#/",
-      "image": "six"
-    },
-    "Project7": {
-      "title": "Buscador CEP",
-      "description": "Consulte seu endereço apenas com o seu CEP. Desenvolvido em React e CSS.",
-      "repoLink": "https://github.com/andreowdev/buscador-cep",
-      "siteLink": "https://andreowdev.github.io/buscador-cep/",
-      "imageLink": "https://andreowdev.github.io/buscador-cep/",
-      "image": "seven"
     }
   },
   "Spotify": "Última musica tocada em meu ",
@@ -94,5 +70,8 @@
     "about": "Sobre",
     "projects": "Projetos",
     "contact": "Contatos"
+  },
+  "footer": {
+    "text": "Andreo Henrique. Todos os direitos reservados."
   }
 }

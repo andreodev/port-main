@@ -4,6 +4,7 @@ import Contact from "../components/contacts/contact.jsx";
 import Footer from '../components/footer/footer.jsx'
 
 export default function Projetos() {
+  console.log("Bem vindo Dev curioso 😂")
   return (
     <div className="min-h-screen flex flex-col items-center   text-white py-14">
       <div className="container max-w-screen-lg   bg-opacity-20 rounded-lg">

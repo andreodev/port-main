@@ -8,6 +8,7 @@ import SpotifyRecentTracks from "../components/spotify/SpotifyRecentTracks.jsx";
 import Footer from "../components/footer/footer.jsx";
 
 export default function Home() {
+  console.log("Bem vindo Dev curioso 😂")
   return (
     <div className=" flex flex-col items-center text-white py-14 px-4">
       <div className="max-w-screen-lg w-full rounded-lg">
@@ -22,10 +23,10 @@ export default function Home() {
               <SpotifyRecentTracks />
             </div>
           </div>
-          <div className="mt-8 bg-opacity-custom shadow-lg rounded-lg p-4">
+          <div className="mt-8 max-w-full bg-opacity-custom rounded-lg p-4">
             <Github />
           </div>
-          <div className="mt-8 bg-opacity-custom shadow-lg rounded-lg p-4">
+          <div className="mt-8 bg-opacity-custom  shadow-lg rounded-lg p-4">
             <About />
           </div>
         </main>

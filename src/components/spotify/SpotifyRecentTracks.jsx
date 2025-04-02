@@ -69,7 +69,7 @@ const CurrentlyPlaying = () => {
           />
           <div className="ml-2 flex-1 text-white">
             <h2 className="text-xl font-semibold mb-1">{track.name}</h2>
-            <p className="text-sm mb-2">Artista(s): {track.artists}</p>
+            <p className="text-sm mb-2">Artista: {track.artists}</p>
             <p className="text-sm">Álbum: {track.album}</p>
           </div>
         </div>
