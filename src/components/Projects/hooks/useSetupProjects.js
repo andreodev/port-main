@@ -3,8 +3,9 @@ import one from "../../img/projetos/p1.png";
 import two from "../../img/projetos/p2.png";
 import three from "../../img/projetos/p3.png";
 import four from "../../img/projetos/p4.png";
+import five from "../../img/projetos/pj5.png";
 
-const images = [one, two, three, four];
+const images = [one, two, three, four, five];
 
 export function useSetupProjects() {
   const { t } = useTranslation(); // ✅ Hook dentro da função

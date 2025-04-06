@@ -48,6 +48,14 @@
       "siteLink": "https://authnext-gamma.vercel.app",
       "imageLink": "https://authnext-gamma.vercel.app",
       "image": "four"
+    },
+    "Project5": {
+      "title": "Blog Viewreo",
+      "description": "Desenvolvi um blog full-stack utilizando Next.js, MongoDB, NextAuth e Prisma. A aplicação permite que os usuários se autentiquem de forma segura, criem e visualizem posts, além de interagir com os conteúdos. A solução implementa autenticação baseada em NextAuth, armazenamento e gerenciamento de dados com MongoDB e Prisma, garantindo uma experiência fluida e segura. A interface é construída com React, sendo responsiva e otimizada para todos os dispositivos. Techs: Next.js, React, MongoDB, NextAuth, Prisma.",
+      "repoLink": "https://github.com/andreodev/blog-Next",
+      "siteLink": "https://blog-viewreo.vercel.app/",
+      "imageLink": "https://blog-viewreo.vercel.app/",
+      "image": "five"
     }
   },
   "Spotify": "Última musica tocada em meu ",
