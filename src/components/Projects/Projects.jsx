@@ -1,8 +1,7 @@
-import projectsData from "./hooks/useSetupProjects";
+import { useSetupProjects } from "./hooks/useSetupProjects";
 import "./project.css";
 import ProjectCard from "./components/ProjectCards";
 import PropTypes from "prop-types";
-import { useTranslation } from "react-i18next";
 
 ProjectCard.propTypes = {
   title: PropTypes.string.isRequired,
@@ -14,15 +13,15 @@ ProjectCard.propTypes = {
 };
 
 export default function Projects() {
-  const { t } = useTranslation(); // ✅ Correção aqui
+  const projectsData = useSetupProjects(); // ✅ Agora o hook está sendo chamado corretamente
 
   return (
     <div>
       {projectsData.map((project, index) => (
         <ProjectCard
           key={index}
-          title={t(project.title)} // Traduzindo os textos
-          description={t(project.description)}
+          title={project.title} // Já está traduzido no hook
+          description={project.description}
           repoLink={project.repoLink}
           siteLink={project.siteLink}
           imageLink={project.imageLink}

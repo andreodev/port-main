@@ -9,7 +9,7 @@ export default function Header() {
 
   const sociais = [
     { src: discord, alt: "Discord", link: t("https://discord.gg/7Xw79guB") },
-    { src: github, alt: "GitHub", link: t("https://github.com/andreowdev") },
+    { src: github, alt: "GitHub", link: t("https://github.com/andreodev") },
     { src: linkedin, alt: "LinkedIn", link: t("https://www.linkedin.com/in/andreo-henrique/") },
   ];
 
@@ -20,7 +20,7 @@ export default function Header() {
           <img
             src={icon}
             alt="icon-andreo"
-            className="w-64 h-64 md:w-68 md:h-64 object-cover clip-icon hidden md:block" 
+            className="w-60 md:w-68 md:h-[19rem] xl:h-[18rem]  lg:h-[18rem] object-cover clip-icon xl:rounded-none lg:rounded-none md:rounded-none sm:rounded-full md:block" 
           />
         </div>
         <div className="text-white flex-shrink-1 w-full md:w-[500px] text-center md:text-left">

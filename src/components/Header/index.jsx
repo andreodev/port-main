@@ -11,10 +11,10 @@ export default function HeaderFinal() {
       <div className="header-final-container ">
         <Language />
         <header className="flex flex-col md:flex-row justify-between items-center  ">
-          <div className=" items-center justify-center md:justify-start bg-opacity-custom person-header">
+          <div className="bg-opacity-custom person-header">
             <Header />
           </div>
-          <div className="md:items-end mt-4 flex lg:block">
+          <div className="md:items-end mt-4 flex xl:block md:block sm:flex lg:block">
             <Hora />
             <Luz />
           </div>
