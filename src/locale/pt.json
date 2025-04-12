@@ -56,6 +56,14 @@
       "siteLink": "https://blog-viewreo.vercel.app/",
       "imageLink": "https://blog-viewreo.vercel.app/",
       "image": "five"
+    },
+    "Project6": {
+      "title": "Landing Page Planno",
+      "description": "💼 Desenvolvi essa landing page com Vite + React, focando em performance, responsividade e uma experiência clara para o usuário. O objetivo foi apresentar o Planno, uma solução de controle financeiro pessoal, de forma atrativa, moderna e informativa. 🚀",
+      "repoLink": "https://github.com/andreodev/Plano-Controle-financeiro",
+      "siteLink": "https://www.plannofinancas.com.br/",
+      "imageLink": "https://www.plannofinancas.com.br/",
+      "image": "six"
     }
   },
   "Spotify": "Última musica tocada em meu ",
