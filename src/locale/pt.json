@@ -25,7 +25,7 @@
       "imageLink": "https://andreodev.com.br",
       "image": "one"
     },
-    "Project3": {
+    "Project2": {
       "title": "Gerenciamento de Restaurante",
       "description": "Este é um projeto de um sistema de gerenciamento e atendimento de restaurante, HEST é o seu nome. Desenvolvido com React, Node, Tailwind, MySQL.",
       "repoLink": "https://github.com/leonfritas/app-restaurante",
@@ -33,7 +33,7 @@
       "imageLink": "https://github.com/leonfritas/app-restaurante",
       "image": "three"
     },
-    "Project4": {
+    "Project3": {
       "title": "Sistema de Autenticação e Perfil de Usuário",
       "description": "Desenvolvi um sistema full-stack para gerenciamento de usuários, utilizando Next.js, React, MongoDB e Prisma. O aplicativo permite o registro, autenticação e visualização do perfil do usuário de forma segura e eficiente. A solução implementa autenticação baseada em JWT, interação com banco de dados NoSQL (MongoDB) e uma interface responsiva com React. Techs: Next.js, React, Prisma, MongoDB .",
       "repoLink": "https://github.com/andreodev/authnext",
@@ -41,7 +41,7 @@
       "imageLink": "https://authnext-gamma.vercel.app",
       "image": "four"
     },
-    "Project5": {
+    "Project4": {
       "title": "Blog Viewreo",
       "description": "Desenvolvi um blog full-stack utilizando Next.js, MongoDB, NextAuth e Prisma. A aplicação permite que os usuários se autentiquem de forma segura, criem e visualizem posts, além de interagir com os conteúdos. A solução implementa autenticação baseada em NextAuth, armazenamento e gerenciamento de dados com MongoDB e Prisma, garantindo uma experiência fluida e segura. A interface é construída com React, sendo responsiva e otimizada para todos os dispositivos. Techs: Next.js, React, MongoDB, NextAuth, Prisma.",
       "repoLink": "https://github.com/andreodev/blog-Next",
@@ -49,7 +49,7 @@
       "imageLink": "https://blog-viewreo.vercel.app/",
       "image": "five"
     },
-    "Project6": {
+    "Project5": {
       "title": "Landing Page Planno",
       "description": "💼 Desenvolvi essa landing page com Vite + React, focando em performance, responsividade e uma experiência clara para o usuário. O objetivo foi apresentar o Planno, uma solução de controle financeiro pessoal, de forma atrativa, moderna e informativa. 🚀",
       "repoLink": "https://github.com/andreodev/Plano-Controle-financeiro",

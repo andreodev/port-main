@@ -25,7 +25,7 @@
       "imageLink": "https://github.com/andreodev/port-main",
       "image": "one"
     },
-    "Project3": {
+    "Project2": {
       "title": "Restaurant Management",
       "description": "This is a restaurant management and customer service system project, called HEST. Developed with React, Node, Tailwind, MySQL.",
       "repoLink": "https://github.com/andreodev/landing-page-hest",
@@ -33,7 +33,7 @@
       "imageLink": "https://github.com/andreodev/cadastrodeprodutos",
       "image": "three"
     },
-    "Project4": {
+    "Project3": {
       "title": "Authentication and User Profile System",
       "description": "I developed a full-stack system for user management using Next.js, React, MongoDB, and Prisma. The application allows users to register, authenticate, and view their profile securely and efficiently. The solution implements JWT-based authentication, NoSQL database interaction (MongoDB), and a responsive interface with React. Techs: Next.js, React, Prisma, MongoDB.",
       "repoLink": "https://authnext-gamma.vercel.app",
@@ -41,7 +41,7 @@
       "imageLink": "https://authnext-gamma.vercel.app",
       "image": "four"
     },
-    "Project5": {
+    "Project4": {
       "title": "Blog Viewreo",
       "description": "I developed a full-stack blog using Next.js, MongoDB, NextAuth, and Prisma. The application allows users to securely authenticate, create and view posts, as well as interact with the content. The solution implements authentication with NextAuth, data storage and management using MongoDB and Prisma, ensuring a smooth and secure experience. The interface is built with React, being responsive and optimized for all devices. Techs: Next.js, React, MongoDB, NextAuth, Prisma.",
       "repoLink": "https://github.com/andreodev/blog-Next",
@@ -49,7 +49,7 @@
       "imageLink": "https://blog-viewreo.vercel.app/",
       "image": "five"
     },
-    "Project6": {
+    "Project5": {
       "title": "Planno Landing Page",
       "description": "💼 I developed this landing page using Vite + React, focusing on performance, responsiveness, and a clear user experience. The goal was to present Planno, a personal finance management solution, in an attractive, modern, and informative way. 🚀",
       "repoLink": "https://github.com/andreodev/Plano-Controle-financeiro",
