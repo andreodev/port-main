@@ -6,7 +6,7 @@
   },
   "About": {
     "title": "About Me",
-    "sobre": "Developer with 1 year of proven experience in the software industry. I am pursuing my degree in Systems Analysis and Development at Universidade Paulista - Manaus Campus. Working independently but looking for my first job or internship. Junior Developer | React-Native - React - Node - SQL - MongoDB - Next - Typescript | FullStack"
+    "sobre": "I am a developer with 1 year of practical experience in the area, currently acting as an intern and developing real solutions for the market. I am studying Systems Analysis and Development at Universidade Paulista – Campus Manaus.I have experience with the main technologies of the web and mobile ecosystem, including React Native, React, Node.js, SQL, MongoDB, Next.js and TypeScript. I am driven by challenges and passionate about learning and creating solutions that make a difference."
   },
   "Socials": {
     "Discord": "https://discord.gg/7Xw79guB",
@@ -24,14 +24,6 @@
       "siteLink": "https://andreodev.github.io/port-main/#/",
       "imageLink": "https://github.com/andreodev/port-main",
       "image": "one"
-    },
-    "Project2": {
-      "title": "L.A Soft Solutions",
-      "description": "This is a project to present the company L.A SOFT SOLUTIONS. Developed with React and Tailwind.",
-      "repoLink": "https://github.com/andreodev/landing-page-hest",
-      "siteLink": "https://andreodev.github.io/landing-page-hest/",
-      "imageLink": "https://andreodev.github.io/landing-page-hest/",
-      "image": "two"
     },
     "Project3": {
       "title": "Restaurant Management",
