@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import icon from "../img/icons.png";
+import icon from "../img/icons.jpg";
 import discord from "../img/social/discord.png";
 import github from "../img/social/github.png";
 import linkedin from "../img/social/linkedin.png";
