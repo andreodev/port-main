@@ -1,0 +1,100 @@
+[33mcommit 0de35a331cf2578b834420b6d19bec18377b85b9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: andreodev <andreohenriqueleite@gmail.com>
+Date:   Thu May 15 02:55:39 2025 -0400
+
+    new commit
+
+[1mdiff --git a/.gitignore b/.gitignore[m
+[1mindex a547bf3..4108b33 100644[m
+[1m--- a/.gitignore[m
+[1m+++ b/.gitignore[m
+[36m@@ -1,24 +1,24 @@[m
+[31m-# Logs[m
+[31m-logs[m
+[31m-*.log[m
+[31m-npm-debug.log*[m
+[31m-yarn-debug.log*[m
+[31m-yarn-error.log*[m
+[31m-pnpm-debug.log*[m
+[31m-lerna-debug.log*[m
+[31m-[m
+[31m-node_modules[m
+[31m-dist[m
+[31m-dist-ssr[m
+[31m-*.local[m
+[31m-[m
+[31m-# Editor directories and files[m
+[31m-.vscode/*[m
+[31m-!.vscode/extensions.json[m
+[31m-.idea[m
+[31m-.DS_Store[m
+[31m-*.suo[m
+[31m-*.ntvs*[m
+[31m-*.njsproj[m
+[31m-*.sln[m
+[31m-*.sw?[m
+[32m+[m[32m# Logs[m[41m[m
+[32m+[m[32mlogs[m[41m[m
+[32m+[m[32m*.log[m[41m[m
+[32m+[m[32mnpm-debug.log*[m[41m[m
+[32m+[m[32myarn-debug.log*[m[41m[m
+[32m+[m[32myarn-error.log*[m[41m[m
+[32m+[m[32mpnpm-debug.log*[m[41m[m
+[32m+[m[32mlerna-debug.log*[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32mnode_modules[m[41m[m
+[32m+[m[32mdist[m[41m[m
+[32m+[m[32mdist-ssr[m[41m[m
+[32m+[m[32m*.local[m[41m[m
+[32m+[m[41m[m
+[32m+[m[32m# Editor directories and files[m[41m[m
+[32m+[m[32m.vscode/*[m[41m[m
+[32m+[m[32m!.vscode/extensions.json[m[41m[m
+[32m+[m[32m.idea[m[41m[m
+[32m+[m[32m.DS_Store[m[41m[m
+[32m+[m[32m*.suo[m[41m[m
+[32m+[m[32m*.ntvs*[m[41m[m
+[32m+[m[32m*.njsproj[m[41m[m
+[32m+[m[32m*.sln[m[41m[m
+[32m+[m[32m*.sw?[m[41m[m
+[1mdiff --git a/README.md b/README.md[m
+[1mindex caf11d0..44747ea 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,110 +1,110 @@[m
+[31m-[m
+[31m-# Portfólio - React + Tailwind CSS[m
+[31m-[m
+[31m-Este é o meu portfólio pessoal desenvolvido utilizando React e Tailwind CSS. O objetivo deste projeto é apresentar minhas habilidades em desenvolvimento front-end com tecnologias modernas, como React e Tailwind, oferecendo uma interface rápida, responsiva e de fácil navegação.[m
+[31m-[m
+[31m-## Tecnologias Utilizadas[m
+[31m-[m
+[31m-- **React**: Biblioteca JavaScript para construir interfaces de usuário.[m
+[31m-- **Tailwind CSS**: Framework CSS utilitário que permite uma estilização rápida e personalizada.[m
+[31m-- **Vite**: Ferramenta de build e desenvolvimento super rápida para o React.[m
+[31m-- **React Router**: Para navegação entre as diferentes seções do portfólio.[m
+[31m-[m
+[31m-## Funcionalidades[m
+[31m-[m
+[31m-- **Design Responsivo**: Layout otimizado para diversos dispositivos, garantindo uma boa experiência tanto em desktops quanto em dispositivos móveis.[m
+[31m-- **Habilidade Interativa**: Seções interativas para explorar meus projetos e habilidades de forma intuitiva.[m
+[31m-- **Navegação Simples**: A navegação é feita através de uma barra lateral ou de links rápidos para facilitar o acesso às diferentes partes do portfólio.[m
+[31m-[m
+[31m-## Instalação[m
+[31m-[m
+[31m-1. Clone o repositório:[m
+[31m-   ```bash[m
+[31m-   git clone https://github.com/seu-usuario/seu-portfolio.git[m
+[31m-=======[m
+[31m-[m
+[31m-# 🚀 Portfólio - React + Tailwind CSS[m
+[31m-[m
+[31m-Bem-vindo ao meu portfólio! Desenvolvido com **React** e **Tailwind CSS**, esse projeto tem como objetivo demonstrar minhas habilidades em **desenvolvimento front-end** utilizando tecnologias modernas, proporcionando uma interface **rápida**, **responsiva** e de **fácil navegação**.[m
+[31m-[m
+[31m----[m
+[31m-[m
+[31m-## 🛠 Tecnologias Utilizadas[m
+[31m-[m
+[31m-- **React**: Biblioteca JavaScript para construção de interfaces de usuário dinâmicas e escaláveis.[m
+[31m-- **Tailwind CSS**: Framework CSS utilitário que facilita uma estilização rápida, flexível e altamente personalizável.[m
+[31
