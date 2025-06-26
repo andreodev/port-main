@@ -30,7 +30,7 @@
   }
 
   .bg-opacity-custom {
-      background-color: rgba(0, 0, 0, 0.3); /* Menos opacidade para melhor visibilidade em telas pequenas */
+      background-color: rgba(0, 0, 0, 0.2); /* Opacidade maior para melhor contraste */
   }
 }
 
@@ -57,7 +57,7 @@
   }
 
   .bg-opacity-custom {
-      background-color: rgba(0, 0, 0, 0.5); /* Opacidade maior para melhor contraste */
+      background-color: rgba(0, 0, 0, 0.2); /* Opacidade maior para melhor contraste */
   }
 }
 

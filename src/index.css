@@ -12,7 +12,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-color: #0C0C0C ;
+  background-color: #1E201E ;
   font-family: "Inter", sans-serif;
 }
 
@@ -27,8 +27,8 @@ body {
 }
 
 .bg-opacity-custom {
-  background-color: rgba(3, 14, 31, 0.3); /* bg-slate-700 com opacidade */
-}
+      background-color: rgba(0, 0, 0, 0.2); /* Opacidade maior para melhor contraste */
+  }
 
 @media (max-width: 768px) {
   .clip-icon {
