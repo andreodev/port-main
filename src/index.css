@@ -12,11 +12,7 @@ html,
 body {
   height: 100%;
   width: 100%;
-  background-image: url("./components/img/thumb-1920-1355025.png");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #0C0C0C ;
   font-family: "Inter", sans-serif;
 }
 
@@ -28,6 +24,10 @@ body {
   .clip-icon {
     clip-path: polygon(100% 0, 0% 500%, 0% 0%, 0 0%);
   }
+}
+
+.bg-opacity-custom {
+  background-color: rgba(3, 14, 31, 0.3); /* bg-slate-700 com opacidade */
 }
 
 @media (max-width: 768px) {

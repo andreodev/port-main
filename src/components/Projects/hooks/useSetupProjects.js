@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
-import one from "../../img/projetos/p1.png";
+import one from "../../img/projetos/p1.webp";
 import three from "../../img/projetos/p3.png";
-import four from "../../img/projetos/p4.png";
+import four from "../../img/projetos/p4.webp";
 import five from "../../img/projetos/pj5.png";
 import six from "../../img/projetos/pj6.png"
 

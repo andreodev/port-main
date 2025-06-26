@@ -34,12 +34,12 @@
       "image": "three"
     },
     "Project3": {
-      "title": "Sistema de Autenticação e Perfil de Usuário",
-      "description": "Desenvolvi um sistema full-stack para gerenciamento de usuários, utilizando Next.js, React, MongoDB e Prisma. O aplicativo permite o registro, autenticação e visualização do perfil do usuário de forma segura e eficiente. A solução implementa autenticação baseada em JWT, interação com banco de dados NoSQL (MongoDB) e uma interface responsiva com React. Techs: Next.js, React, Prisma, MongoDB .",
-      "repoLink": "https://github.com/andreodev/authnext",
-      "siteLink": "https://authnext-gamma.vercel.app",
-      "imageLink": "https://authnext-gamma.vercel.app",
-      "image": "four"
+      "title": "FoodBoxd",
+  "description": "FoodBoxd é um sistema de gestão de cardápios e avaliações para refeitórios, desenvolvido em React Native com integração ao Firebase. Permite que gestores cadastrem e editem cardápios diários e semanais, acompanhem avaliações dos usuários e visualizem gráficos de desempenho. Usuários podem consultar o cardápio, avaliar refeições e visualizar informações nutricionais.",
+  "repoLink": "https://github.com/andreodev/FoodBox/tree/main",
+  "siteLink": "#",
+  "imageLink": "https://github.com/andreodev/FoodBox/tree/main",
+  "image": "four"
     },
     "Project4": {
       "title": "Blog Viewreo",

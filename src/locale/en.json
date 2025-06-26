@@ -2,48 +2,48 @@
   "Info": {
     "name": "Andreo Henrique",
     "dev": "Junior Developer",
-    "ativo": "I am currently available for work, so don't hesitate to contact me. 👋"
+    "ativo": "I am currently available to work, so feel free to contact me. 👋"
   },
   "About": {
     "title": "About Me",
-    "sobre": "I am a developer with 1 year of practical experience in the area, currently acting as an intern and developing real solutions for the market. I am studying Systems Analysis and Development at Universidade Paulista – Campus Manaus.I have experience with the main technologies of the web and mobile ecosystem, including React Native, React, Node.js, SQL, MongoDB, Next.js and TypeScript. I am driven by challenges and passionate about learning and creating solutions that make a difference."
+    "sobre": "I am a developer with 1 year of practical experience in the field, currently working as an intern and developing real solutions for the market. I am studying Systems Analysis and Development at Universidade Paulista – Manaus Campus. I have experience with the main technologies of the web and mobile ecosystem, including React Native, React, Node.js, SQL, MongoDB, Next.js, and TypeScript. I am driven by challenges and passionate about learning and creating solutions that make a difference."
   },
   "Socials": {
     "Discord": "https://discord.gg/7Xw79guB",
     "Gmail": "mailto:developerandreo@gmail.com",
     "Linkedin": "https://www.linkedin.com/in/andreo-henrique/",
     "Github": "https://github.com/andreodev",
-    "Instagram": "https://www.instagram.com/andreowdev/",
+    "Instagram": "https://www.instagram.com/andreowdev",
     "Whatsapp": "https://api.whatsapp.com/send/?phone=92991784771&text&type=phone_number&app_absent=0"
   },
   "Projects": {
     "Project1": {
       "title": "My Portfolio",
-      "description": "This is my personal website, the one you are currently viewing :). Developed with React, Tailwind, APIs.",
+      "description": "This is my personal website, the one you are currently on :). Built with React, Tailwind, and APIs.",
       "repoLink": "https://github.com/andreodev/port-main",
-      "siteLink": "https://andreodev.github.io/port-main/#/",
-      "imageLink": "https://github.com/andreodev/port-main",
+      "siteLink": "https://andreodev.com.br",
+      "imageLink": "https://andreodev.com.br",
       "image": "one"
     },
     "Project2": {
       "title": "Restaurant Management",
-      "description": "This is a restaurant management and customer service system project, called HEST. Developed with React, Node, Tailwind, MySQL.",
-      "repoLink": "https://github.com/andreodev/landing-page-hest",
+      "description": "This is a project for a restaurant management and service system, called HEST. Built with React, Node, Tailwind, and MySQL.",
+      "repoLink": "https://github.com/leonfritas/app-restaurante",
       "siteLink": "#",
-      "imageLink": "https://github.com/andreodev/cadastrodeprodutos",
+      "imageLink": "https://github.com/leonfritas/app-restaurante",
       "image": "three"
     },
     "Project3": {
-      "title": "Authentication and User Profile System",
-      "description": "I developed a full-stack system for user management using Next.js, React, MongoDB, and Prisma. The application allows users to register, authenticate, and view their profile securely and efficiently. The solution implements JWT-based authentication, NoSQL database interaction (MongoDB), and a responsive interface with React. Techs: Next.js, React, Prisma, MongoDB.",
-      "repoLink": "https://authnext-gamma.vercel.app",
-      "siteLink": "https://github.com/andreodev/authnext",
-      "imageLink": "https://authnext-gamma.vercel.app",
+      "title": "FoodBoxd",
+      "description": "FoodBoxd is a menu management and rating system for cafeterias, developed in React Native with Firebase integration. It allows managers to register and edit daily and weekly menus, track user reviews, and view performance charts. Users can check menus, rate meals, and view nutritional information.",
+      "repoLink": "https://github.com/andreodev/FoodBox/tree/main",
+      "siteLink": "#",
+      "imageLink": "https://github.com/andreodev/FoodBox/tree/main",
       "image": "four"
     },
     "Project4": {
       "title": "Blog Viewreo",
-      "description": "I developed a full-stack blog using Next.js, MongoDB, NextAuth, and Prisma. The application allows users to securely authenticate, create and view posts, as well as interact with the content. The solution implements authentication with NextAuth, data storage and management using MongoDB and Prisma, ensuring a smooth and secure experience. The interface is built with React, being responsive and optimized for all devices. Techs: Next.js, React, MongoDB, NextAuth, Prisma.",
+      "description": "I developed a full-stack blog using Next.js, MongoDB, NextAuth, and Prisma. The application allows users to securely authenticate, create and view posts, and interact with content. The solution implements NextAuth-based authentication, data storage and management with MongoDB and Prisma, ensuring a smooth and secure experience. The interface is built with React, being responsive and optimized for all devices. Techs: Next.js, React, MongoDB, NextAuth, Prisma.",
       "repoLink": "https://github.com/andreodev/blog-Next",
       "siteLink": "https://blog-viewreo.vercel.app/",
       "imageLink": "https://blog-viewreo.vercel.app/",
@@ -51,7 +51,7 @@
     },
     "Project5": {
       "title": "Planno Landing Page",
-      "description": "💼 I developed this landing page using Vite + React, focusing on performance, responsiveness, and a clear user experience. The goal was to present Planno, a personal finance management solution, in an attractive, modern, and informative way. 🚀",
+      "description": "💼 I developed this landing page with Vite + React, focusing on performance, responsiveness, and a clear user experience. The goal was to present Planno, a personal finance control solution, in an attractive, modern, and informative way. 🚀",
       "repoLink": "https://github.com/andreodev/Plano-Controle-financeiro",
       "siteLink": "https://www.plannofinancas.com.br/",
       "imageLink": "https://www.plannofinancas.com.br/",

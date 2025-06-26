@@ -46,7 +46,7 @@ const CurrentlyPlaying = () => {
 
 
   return (
-    <div className="bg-gray-800 p-4 rounded-lg shadow-lg">
+    <div className=" p-4 rounded-lg shadow-lg">
       <h1 className="font-mono text-white text-center text-2xl mb-4">
         {t('Spotify')}{' '}
         <a

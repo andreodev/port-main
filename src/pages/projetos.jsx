@@ -12,7 +12,7 @@ export default function Projetos() {
       <HeaderFinal />
       </div>
         <main>
-          <div className="flex flex-col  justify-between mt-8">
+          <div className="flex flex-col justify-between mt-8">
               <Projects />  
           </div>
         </main>
