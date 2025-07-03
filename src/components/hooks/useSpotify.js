@@ -40,7 +40,6 @@ const refreshAccessToken = async () => {
 
 const ensureToken = async () => {
   if (!accessToken) {
-    console.log('Token não encontrado. Renovando...');
     await refreshAccessToken();
   }
 };
@@ -53,7 +52,6 @@ export const getLastPlayedTrack = async () => {
       headers: getAuthHeaders(),
     });
 
-    console.log(response.data.items)
 
     if (response.status === 200 && response.data.items.length > 0) {
       const item = response.data.items[0];

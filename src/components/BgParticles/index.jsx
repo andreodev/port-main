@@ -4,7 +4,6 @@ import { loadSlim } from 'tsparticles-slim'; // Alternativa mais leve que loadFu
 
 export default function ParticlesBackground() {
   const particlesInit = useCallback(async (engine) => {
-    console.log('Engine:', engine); // Para verificação
     await loadSlim(engine); // Usando loadSlim em vez de loadFull
   }, []);
 
