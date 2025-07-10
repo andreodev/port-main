@@ -31,15 +31,15 @@
       "repoLink": "https://github.com/leonfritas/app-restaurante",
       "siteLink": "#",
       "imageLink": "https://github.com/leonfritas/app-restaurante",
-      "image": "three"
+      "image": "two"
     },
     "Project3": {
       "title": "FoodBoxd",
-  "description": "FoodBoxd é um sistema de gestão de cardápios e avaliações para refeitórios, desenvolvido em React Native com integração ao Firebase. Permite que gestores cadastrem e editem cardápios diários e semanais, acompanhem avaliações dos usuários e visualizem gráficos de desempenho. Usuários podem consultar o cardápio, avaliar refeições e visualizar informações nutricionais.",
-  "repoLink": "https://github.com/andreodev/FoodBox/tree/main",
-  "siteLink": "#",
-  "imageLink": "https://github.com/andreodev/FoodBox/tree/main",
-  "image": "four"
+      "description": "FoodBoxd é um sistema de gestão de cardápios e avaliações para refeitórios, desenvolvido em React Native com integração ao Firebase. Permite que gestores cadastrem e editem cardápios diários e semanais, acompanhem avaliações dos usuários e visualizem gráficos de desempenho. Usuários podem consultar o cardápio, avaliar refeições e visualizar informações nutricionais.",
+      "repoLink": "https://github.com/andreodev/FoodBox/tree/main",
+      "siteLink": "#",
+      "imageLink": "https://github.com/andreodev/FoodBox/tree/main",
+      "image": "three"
     },
     "Project4": {
       "title": "Blog Viewreo",
@@ -47,7 +47,7 @@
       "repoLink": "https://github.com/andreodev/blog-Next",
       "siteLink": "https://blog-viewreo.vercel.app/",
       "imageLink": "https://blog-viewreo.vercel.app/",
-      "image": "five"
+      "image": "four"
     },
     "Project5": {
       "title": "Landing Page Planno",
@@ -55,6 +55,14 @@
       "repoLink": "https://github.com/andreodev/Plano-Controle-financeiro",
       "siteLink": "https://www.plannofinancas.com.br/",
       "imageLink": "https://www.plannofinancas.com.br/",
+      "image": "five"
+    },
+    "Project6": {
+      "title": "🌸 Takusan - Descubra Animes",
+      "description": "🎌 Takusan é uma aplicação web que permite explorar os animes mais populares do momento, visualizar detalhes completos como trailer, personagens e gêneros, e navegar por uma UI moderna e animada. Desenvolvido com React, Vite, TailwindCSS, GraphQL e Framer Motion, faz parte do meu portfólio com foco em experiência de usuário e performance.",
+      "repoLink": "https://github.com/andreodev/Takusan",
+      "siteLink": "https://takusan.vercel.app/",
+      "imageLink": "https://takusan.vercel.app/",
       "image": "six"
     }
   },

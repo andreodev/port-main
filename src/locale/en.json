@@ -56,6 +56,14 @@
       "siteLink": "https://www.plannofinancas.com.br/",
       "imageLink": "https://www.plannofinancas.com.br/",
       "image": "six"
+    },
+    "Project6": {
+      "title": "🌸 Takusan - Anime Explorer",
+      "description": "🎌 Takusan is a web application to explore trending anime, discover detailed information like trailers, characters, and genres, and enjoy a modern, animated UI. Built with React, Vite, TailwindCSS, GraphQL, and Framer Motion, it's part of my front-end portfolio focused on performance and smooth user experience.",
+      "repoLink": "https://github.com/andreodev/Takusan",
+      "siteLink": "https://takusan.vercel.app/",
+      "imageLink": "https://takusan.vercel.app/",
+      "image": "seven"
     }
   },
   "Spotify": "Last song played on my ",
