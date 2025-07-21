@@ -1,12 +1,12 @@
 {
   "Info": {
     "name": "Andreo Henrique",
-    "dev": "Junior Developer",
-    "ativo": "I am currently available to work, so feel free to contact me. 👋"
+    "dev": "Junior Software Developer",
+    "ativo": "Junior Software Developer focused on web and mobile solutions. 📍 Manaus | Looking for my first CLT opportunity | React • Node.js • TypeScript"
   },
   "About": {
-    "title": "About Me",
-    "sobre": "I am a developer with 1 year of practical experience in the field, currently working as an intern and developing real solutions for the market. I am studying Systems Analysis and Development at Universidade Paulista – Manaus Campus. I have experience with the main technologies of the web and mobile ecosystem, including React Native, React, Node.js, SQL, MongoDB, Next.js, and TypeScript. I am driven by challenges and passionate about learning and creating solutions that make a difference."
+    "title": "👨‍💻About me",
+    "sobre": "I’m a junior software developer with around 1 year of hands-on experience, working as an intern and contributing to real-world solutions. I'm currently studying Systems Analysis and Development at Universidade Paulista (UNIP), Manaus campus. I have experience with web and mobile development using technologies like React, React Native, Node.js, SQL, MongoDB, Next.js, and TypeScript. I stand out for my curiosity, initiative, and ability to quickly learn new tools. I'm constantly striving to grow professionally and build products that solve real problems."
   },
   "Socials": {
     "Discord": "https://discord.gg/7Xw79guB",
@@ -19,7 +19,7 @@
   "Projects": {
     "Project1": {
       "title": "My Portfolio",
-      "description": "This is my personal website, the one you are currently on :). Built with React, Tailwind, and APIs.",
+      "description": "This is my personal website, the one you’re currently on :). Built with React, Tailwind, and APIs.",
       "repoLink": "https://github.com/andreodev/port-main",
       "siteLink": "https://andreodev.com.br",
       "imageLink": "https://andreodev.com.br",
@@ -27,68 +27,68 @@
     },
     "Project2": {
       "title": "Restaurant Management",
-      "description": "This is a project for a restaurant management and service system, called HEST. Built with React, Node, Tailwind, and MySQL.",
+      "description": "This is a restaurant management and service system project called HEST. Developed with React, Node, Tailwind, MySQL.",
       "repoLink": "https://github.com/leonfritas/app-restaurante",
       "siteLink": "#",
       "imageLink": "https://github.com/leonfritas/app-restaurante",
-      "image": "three"
+      "image": "two"
     },
     "Project3": {
       "title": "FoodBoxd",
-      "description": "FoodBoxd is a menu management and rating system for cafeterias, developed in React Native with Firebase integration. It allows managers to register and edit daily and weekly menus, track user reviews, and view performance charts. Users can check menus, rate meals, and view nutritional information.",
+      "description": "FoodBoxd is a menu and review management system for cafeterias, developed in React Native with Firebase integration. It allows managers to create and edit daily/weekly menus, monitor user feedback, and view performance charts. Users can check menus, rate meals, and view nutritional info.",
       "repoLink": "https://github.com/andreodev/FoodBox/tree/main",
       "siteLink": "#",
       "imageLink": "https://github.com/andreodev/FoodBox/tree/main",
-      "image": "four"
+      "image": "three"
     },
     "Project4": {
       "title": "Blog Viewreo",
-      "description": "I developed a full-stack blog using Next.js, MongoDB, NextAuth, and Prisma. The application allows users to securely authenticate, create and view posts, and interact with content. The solution implements NextAuth-based authentication, data storage and management with MongoDB and Prisma, ensuring a smooth and secure experience. The interface is built with React, being responsive and optimized for all devices. Techs: Next.js, React, MongoDB, NextAuth, Prisma.",
+      "description": "I built a full-stack blog using Next.js, MongoDB, NextAuth, and Prisma. Users can securely authenticate, create and view posts, and interact with content. The solution features authentication with NextAuth, data management with MongoDB and Prisma, and a responsive UI built with React. Tech stack: Next.js, React, MongoDB, NextAuth, Prisma.",
       "repoLink": "https://github.com/andreodev/blog-Next",
       "siteLink": "https://blog-viewreo.vercel.app/",
       "imageLink": "https://blog-viewreo.vercel.app/",
-      "image": "five"
+      "image": "four"
     },
     "Project5": {
       "title": "Planno Landing Page",
-      "description": "💼 I developed this landing page with Vite + React, focusing on performance, responsiveness, and a clear user experience. The goal was to present Planno, a personal finance control solution, in an attractive, modern, and informative way. 🚀",
+      "description": "💼 I created this landing page using Vite + React, focusing on performance, responsiveness, and a clear user experience. It introduces Planno, a personal finance control solution, in a modern and attractive way. 🚀",
       "repoLink": "https://github.com/andreodev/Plano-Controle-financeiro",
       "siteLink": "https://www.plannofinancas.com.br/",
       "imageLink": "https://www.plannofinancas.com.br/",
-      "image": "six"
+      "image": "five"
     },
     "Project6": {
-      "title": "🌸 Takusan - Anime Explorer",
-      "description": "🎌 Takusan is a web application to explore trending anime, discover detailed information like trailers, characters, and genres, and enjoy a modern, animated UI. Built with React, Vite, TailwindCSS, GraphQL, and Framer Motion, it's part of my front-end portfolio focused on performance and smooth user experience.",
+      "title": "🌸 Takusan - Discover Animes",
+      "description": "🎌 Takusan is a web app that lets you explore the most popular animes, view full details like trailers, characters, and genres, and navigate a modern and animated UI. Built with React, Vite, TailwindCSS, GraphQL, and Framer Motion, this project focuses on user experience and performance.",
       "repoLink": "https://github.com/andreodev/Takusan",
       "siteLink": "https://takusan.vercel.app/",
       "imageLink": "https://takusan.vercel.app/",
-      "image": "seven"
+      "image": "six"
     }
   },
   "Spotify": "Last song played on my ",
   "Contact": {
     "title": "Contact",
     "placeholderName": "Enter your name:",
-    "placeholderEmail": "Enter your email",
-    "placeholderMessage": "Enter your message",
+    "placeholderEmail": "Enter your email:",
+    "placeholderMessage": "Enter your message:",
     "submitButton": "SEND"
   },
   "stack": {
-    "title": "My Technologies",
+    "title": "My Tech Stack",
     "subtitle": "Some of the technologies I use"
   },
   "github": {
     "title": "My Github",
     "subtitle": "Check out some of my projects and contributions."
   },
-  "curriculum": {
-    "ViewCV": "View CV",
-    "DownloadCV": "Download CV"
-  },
   "nav": {
     "about": "About",
     "projects": "Projects"
+  },
+  "curriculum": {
+    "ViewCV": "View resume",
+    "DownloadCV": "Download resume"
   },
   "footer": {
     "text": "Andreo Henrique. All rights reserved."

@@ -3,6 +3,7 @@ import icon from "../img/icons.webp";
 import discord from "../img/social/discord.png";
 import github from "../img/social/github.png";
 import linkedin from "../img/social/linkedin.png";
+import { FaEye, FaDownload } from "react-icons/fa";
 
 export default function Header() {
   const { t } = useTranslation();
@@ -20,7 +21,7 @@ export default function Header() {
           <img
             src={icon}
             alt="icon-andreo"
-            className="w-60 md:w-68 md:h-[19rem] xl:h-[18rem]  lg:h-[18rem] object-cover clip-icon xl:rounded-none lg:rounded-none md:rounded-none sm:rounded-full md:block"
+            className="w-60 md:w-68 md:h-[20rem] xl:h-[20rem]  lg:h-[20rem] object-cover clip-icon xl:rounded-none lg:rounded-none md:rounded-none sm:rounded-full md:block"
           />
         </div>
 
@@ -49,27 +50,29 @@ export default function Header() {
             ))}
           </div>
 
-          <div className="flex space-x-6 justify-center md:justify-start mb-6">
-            <a
-              href="/andreo_henrique_CV_PT.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white font-semibold"
-            >
-              {t("curriculum.ViewCV")}
-            </a>
+          <div className="flex space-x-6 justify-center md:justify-start">
+  <a
+    href="/andreo_henrique_CV_PT.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white font-semibold flex items-center gap-2"
+  >
+    <FaEye />
+    {t("curriculum.ViewCV")}
+  </a>
 
-            <a
-              href="/curriculo.pdf"
-              download="Curriculo-Andreo-Henrique.pdf"
-              className="bg-green-600 hover:bg-green-700 px-4 py-2 rounded text-white font-semibold"
-            >
-              {t("curriculum.DownloadCV")}
-            </a>
-          </div>
+  <a
+    href="/curriculo.pdf"
+    download="Curriculo-Andreo-Henrique.pdf"
+    className="bg-green-600 hover:bg-green-700 px-4 py-2 rounded text-white font-semibold flex items-center gap-2"
+  >
+    <FaDownload />
+    {t("curriculum.DownloadCV")}
+  </a>
+</div>
 
           <nav className="rounded-lg">
-            <ul className="flex  flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0 justify-center md:justify-start">
+            <ul className="flex  flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0 justify-center md:justify-start mt-2">
               <li>
                 <a href="#/" className="hover:underline">
                   {t("nav.about")}

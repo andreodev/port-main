@@ -1,12 +1,12 @@
 {
   "Info": {
-    "name": "Andreo Henrique",
-    "dev": "Desenvolvedor jr",
-    "ativo": "Estou atualmente disponível para trabalhar, por isso não hesite em contactar-me. 👋"
+  "name": "Andreo Henrique",
+  "dev": "Desenvolvedor de Software Júnior",
+  "ativo": "Desenvolvedor de Software Júnior com foco em soluções web e mobile.  📍 Manaus | Em busca da primeira oportunidade CLT | React • Node.js • TypeScript"
   },
   "About": {
-    "title": "Sobre mim",
-    "sobre": "Sou desenvolvedor com 1 ano de experiência prática na área, atualmente atuando como estagiário e desenvolvendo soluções reais para o mercado. Estou cursando Análise e Desenvolvimento de Sistemas pela Universidade Paulista – Campus Manaus.Tenho experiência com as principais tecnologias do ecossistema web e mobile, incluindo React Native, React, Node.js, SQL, MongoDB, Next.js e TypeScript. Sou movido por desafios e apaixonado por aprender e criar soluções que fazem a diferença."
+  "title": "👨‍💻Sobre mim",
+  "sobre": "Sou um desenvolvedor de software júnior com cerca de 1 ano de experiência prática, atuando como estagiário e contribuindo no desenvolvimento de soluções reais para o mercado. Atualmente curso Análise e Desenvolvimento de Sistemas na Universidade Paulista (UNIP), Campus Manaus. Tenho experiência com desenvolvimento web e mobile, utilizando tecnologias como React, React Native, Node.js, SQL, MongoDB, Next.js e TypeScript. Me destaco pela curiosidade, iniciativa e facilidade em aprender novas ferramentas. Busco constantemente evoluir como profissional e criar produtos que realmente resolvam problemas."
   },
   "Socials": {
     "Discord": "https://discord.gg/7Xw79guB",

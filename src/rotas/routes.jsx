@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from 'react';
+import  { Suspense, lazy } from 'react';
 import { Route, Routes, useLocation, HashRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { AnimatePresence, motion } from 'framer-motion';
