@@ -84,8 +84,11 @@
   },
   "nav": {
     "about": "Sobre",
-    "projects": "Projetos",
-    "contact": "Contatos"
+    "projects": "Projetos"
+  },
+  "curriculum": {
+    "ViewCV": "Ver currículo",
+    "DownloadCV": "Baixar currículo"
   },
   "footer": {
     "text": "Andreo Henrique. Todos os direitos reservados."

@@ -8,9 +8,9 @@ export default function Header() {
   const { t } = useTranslation();
 
   const sociais = [
-    { src: discord, alt: "Discord", link: t("https://discord.gg/7Xw79guB") },
-    { src: github, alt: "GitHub", link: t("https://github.com/andreodev") },
-    { src: linkedin, alt: "LinkedIn", link: t("https://www.linkedin.com/in/andreo-henrique/") },
+    { src: discord, alt: "Discord", link: "https://discord.gg/7Xw79guB" },
+    { src: github, alt: "GitHub", link: "https://github.com/andreodev" },
+    { src: linkedin, alt: "LinkedIn", link: "https://www.linkedin.com/in/andreo-henrique/" },
   ];
 
   return (
@@ -20,14 +20,17 @@ export default function Header() {
           <img
             src={icon}
             alt="icon-andreo"
-            className="w-60 md:w-68 md:h-[19rem] xl:h-[18rem]  lg:h-[18rem] object-cover clip-icon xl:rounded-none lg:rounded-none md:rounded-none sm:rounded-full md:block" 
+            className="w-60 md:w-68 md:h-[19rem] xl:h-[18rem]  lg:h-[18rem] object-cover clip-icon xl:rounded-none lg:rounded-none md:rounded-none sm:rounded-full md:block"
           />
         </div>
+
         <div className="text-white flex-shrink-1 w-full md:w-[500px] text-center md:text-left">
           <h1 className="font-bold text-2xl md:text-4xl">{t("Info.name")}</h1>
           <p className="font-bold text-lg md:text-xl">{t("Info.dev")}</p>
           <p className="">{t("Info.ativo")}</p>
           <hr className="mt-2 mb-4 border-white w-full md:w-2/3 lg:w-full " />
+
+          {/* Links sociais */}
           <div className="flex flex-wrap justify-center md:justify-start space-x-4 overflow-x-auto mb-4">
             {sociais.map((tech, index) => (
               <a
@@ -45,21 +48,36 @@ export default function Header() {
               </a>
             ))}
           </div>
-          <nav className="bg-opacity-30 rounded-lg">
-            <ul className="flex flex-col md:flex-row md:space-x-6 space-y-2 md:space-y-0 justify-center md:justify-start">
+
+          <div className="flex space-x-6 justify-center md:justify-start mb-6">
+            <a
+              href="/andreo_henrique_CV_PT.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded text-white font-semibold"
+            >
+              {t("curriculum.ViewCV")}
+            </a>
+
+            <a
+              href="/curriculo.pdf"
+              download="Curriculo-Andreo-Henrique.pdf"
+              className="bg-green-600 hover:bg-green-700 px-4 py-2 rounded text-white font-semibold"
+            >
+              {t("curriculum.DownloadCV")}
+            </a>
+          </div>
+
+          <nav className="rounded-lg">
+            <ul className="flex  flex-col md:flex-row md:space-x-4 space-y-2 md:space-y-0 justify-center md:justify-start">
               <li>
                 <a href="#/" className="hover:underline">
-                  {t('nav.about')}
+                  {t("nav.about")}
                 </a>
               </li>
               <li>
                 <a href="#/projetos" className="hover:underline">
-                  {t('nav.projects')}
-                </a>
-              </li>
-              <li>
-                <a href="#/contato" className="hover:underline">
-                  {t('nav.contact')}
+                  {t("nav.projects")}
                 </a>
               </li>
             </ul>

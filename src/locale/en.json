@@ -82,10 +82,13 @@
     "title": "My Github",
     "subtitle": "Check out some of my projects and contributions."
   },
+  "curriculum": {
+    "ViewCV": "View CV",
+    "DownloadCV": "Download CV"
+  },
   "nav": {
     "about": "About",
-    "projects": "Projects",
-    "contact": "Contact"
+    "projects": "Projects"
   },
   "footer": {
     "text": "Andreo Henrique. All rights reserved."
